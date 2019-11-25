@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+}
+
+.header div{
+    border: 1px solid gray;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 5px;
+    background: lightgray;
+    text-align: center;
+}
+
+.content {
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.content div{
+    border: 1px solid gray;
+    margin: 5px;
+    flex:1 1 2px;
+    padding: 5rem;
+    background: lightgray;
+    text-align: center;
+}
+
+.content div:nth-child(2){
+   flex-basis: 50%;
+}
+
+
+.footer{
+    display: flex;
+}
+
+.footer div{
+    border: 1px solid gray;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 5px;
+    background: lightgray;
+    text-align: center;
+}

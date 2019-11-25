@@ -1,0 +1,59 @@
+.header {  
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header div {
+    border: 1px solid gray;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 5px;
+    background: lightgray;
+    text-align: center;
+}
+
+.header div:nth-child(1){
+  position: relative;
+  flex-basis: 5%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-right: 60px;
+}
+.content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Main {
+    border: 1px solid gray;
+    margin: 5px;
+    flex: 1 1 2px;
+    padding: 5rem;
+    background: lightgray;
+    text-align: center;
+}
+.line-break {
+    flex-basis: 100%;
+}
+.Sub {
+    border: 1px solid gray;
+    margin: 5px;
+    flex: 1 1 2px;
+    padding: 5rem;
+    background: lightgray;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer div {
+    border: 1px solid gray;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 5px;
+    background: lightgray;
+    text-align: center;
+}

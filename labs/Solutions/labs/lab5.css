@@ -1,0 +1,155 @@
+.header {  
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header div {
+    border: 1px solid gray;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 5px;
+    background: lightgray;
+    text-align: center;
+}
+
+.header div:nth-child(1){
+  flex-basis: 5%;
+  padding: 100px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-right: 200px;
+  margin-left:0px;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: stretch; */
+}
+
+.content div:nth-child(1) {
+  /* border: 1px solid gray; */
+  margin: 5px;
+  flex: 0 0 200px;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background: lightgray;
+  text-align: center;
+}
+
+.content div:nth-child(2) {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.line-break {
+  flex-basis: 100%;
+}
+
+.fstbody{
+   border: 1px solid gray; */
+  /* flex-flow: column wrap; */
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 5px;
+  background: lightgray;
+}
+.secondbody{
+  border: 1px solid gray;
+  margin: 5px;
+  /* flex-grow: 1;
+  flex-shrink: 1; */
+  background: lightgray;
+  flex-flow: row;
+}
+.thirdbody{
+  /* border: 1px solid gray; */
+  /* flex-flow: column wrap; */
+  margin: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background: lightgray;
+  flex-direction: column;
+}
+
+
+/* .Main {
+  border: 1px solid gray;
+  margin: 5px;
+  flex: 0 0 20px;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background: lightgray;
+  text-align: center;
+} */
+
+/* .content div:nth-child(2).main {
+  border: 1px solid gray;
+  margin: 5px;
+  flex: 1 1 100px;
+  background: lightgray;
+  text-align: center;
+  align-self: center;
+  flex-basis: 20px;
+}
+.content div:nth-child(3) {
+  border: 1px solid gray;
+  margin: 5px;
+  flex: 1 1 12px;
+  background: lightgray;
+  text-align: center;
+  align-self: center;
+}
+.content div:nth-child(4) {
+  border: 1px solid gray;
+  margin: 5px;
+  flex: 1 1 12px;
+  background: lightgray;
+  text-align: center;
+  align-self: center;
+}
+.content div:nth-child(n+4) {
+  border: 1px solid gray;
+  margin: 5px;
+  flex: 1 1 12px;
+  background: lightgray;
+  text-align: center;
+  align-self: flex-end;
+}
+/* .content div:nth-child(n-1) {
+    border: 1px solid gray;
+    margin: 5px;
+    flex: 1 2 1px;
+    background: lightgray;
+    text-align: center;
+} */
+
+
+
+.Sub {
+    border: 1px solid gray;
+    margin: 5px;
+    flex: 1 1 2px;
+    padding: 5rem;
+    background: lightgray;
+    text-align: center;
+} */
+
+.footer {
+    display: flex;
+}
+
+.footer div {
+    border: 1px solid gray;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 5px;
+    background: lightgray;
+    text-align: center;
+}
