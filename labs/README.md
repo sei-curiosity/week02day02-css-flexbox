@@ -1,6 +1,35 @@
 # HTML and CSS Layouts
+1. Making use of the following HTML snippet create a flexbox that represents the output shown thereafter.
+```
+<div class="Instructors">
+ <div>
+   <h1>Instructor 1</h1>
+   <h3>Ahmed</h3>
+   <p>SEI-9 Lead</p>
+ </div>
+ <div>
+   <h1>Instructor 2</h1>
+   <h3>Maha</h3>
+   <p>SEI-9 Lead</p>
+ </div>
+ <div>
+   <h1>Instructor 3</h1>
+   <h3>Sami</h3>
+   <p>SEI-9 IA</p>
+ </div> 
+  <div>
+   <h1>Instructor 4</h1>
+   <h3>Salman</h3>
+   <p>SEI-9 IA</p>
+ </div> 
+</div>
+```
+Output template:
+<img alt="output" src="../slides/op.png">
 
-Your goal is to create a common two-column layout using HTML and CSS.
+
+
+2. Your goal is to create a common two-column layout using HTML and CSS.
 
 In the [exercise/layout_one](exercise/layout_one) folder there is an HTML and CSS file for you to build the following layout:
 
